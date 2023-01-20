@@ -36,6 +36,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + zip up two different lists into a dictionary (**stateAbbreviations.py**)
 + convert lists within list to dictionary key-value pairs (**listToDict.py**)
 + assign default value of 0 to list of vowels using fromkeys (**fromkeysVowels.py**)
++ create dict of ascii keys and their values (**ASCIIdict.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
