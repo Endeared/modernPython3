@@ -22,6 +22,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + practice iterating over lists and extracting data (**listComp1.py**)
 + practice iterating over lists and extracting more data / modifying lists (**listComp2.py**)
 + simple list comprehension to check for all numbers divisible by 12 between 1-10 (**listComp3.py**)
++ simple list comprehension to check for only non-vowels in a string (**listCompy4.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
