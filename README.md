@@ -35,6 +35,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + mock spotify playlist stored in python dictionary (**spotifyPlaylist.py**)
 + zip up two different lists into a dictionary (**stateAbbreviations.py**)
 + convert lists within list to dictionary key-value pairs (**listToDict.py**)
++ assign default value of 0 to list of vowels using fromkeys (**fromkeysVowels.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
