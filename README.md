@@ -40,6 +40,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + practice making tuples and sets from lists (**tuplesAndSets.py**)
 + creating a function (**definingFunctions.py**)
 + practice using return (**understandingReturn.py**)
++ pig speak function (lol) (**speakPig.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
