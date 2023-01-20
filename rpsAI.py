@@ -8,8 +8,9 @@ print("...scissors...")
 count = 0
 
 player1 = input("(Enter your choice): ")
-computer = computerChoices[random.randint(0, len(computerChoices))]
-computer = print("The computer plays: " + computer)
+randomIndex = random.randint(0, len(computerChoices - 1))
+computer = computerChoices[randomIndex]
+print("The computer plays: " + computer)
 
 print("SHOOT!")
 
