@@ -2,10 +2,10 @@ print("...rock...")
 print("...paper...")
 print("...scissors...")
 
-count = 15
+count = 0
 
 player1 = input("(enter Player 1's choice): ")
-while (count < 15):
+while (count < 100):
     print("***NO CHEATING***")
     count = count + 1
 player2 = input("(enter Player 2's choice): ")
@@ -26,3 +26,5 @@ elif (player1.lower() == 'rock' and player2.lower() == 'scissors'):
     print("PLAYER 1 WINS")
 elif (player1.lower() == 'rock' and player2.lower() == 'paper'):
     print("PLAYER 2 WINS")
+else:
+    print("INVALID INPUT(S)!")
