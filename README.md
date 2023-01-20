@@ -49,4 +49,5 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **random**
 + 1 player rps game vs AI, keeps score (**rpsAIv2.py**)
     > __Note__ dependencies: **random**
-
++ very simple coinflip function (**coinflip.py**)
+    > __Note__ dependencies: **random**
