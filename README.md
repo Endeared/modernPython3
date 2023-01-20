@@ -26,6 +26,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + use list comprehension to generate nested lists (**listComp5.py**)
 + use list comprehension to generate more nested lists (**listComp6.py**)
 + creation of a simple single object dictionary (**simpleDictionary.py**)
++ access values out of a single object dictionary (**dictPractice1.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
