@@ -39,6 +39,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + create dict of ascii keys and their values (**ASCIIdict.py**)
 + practice making tuples and sets from lists (**tuplesAndSets.py**)
 + creating a function (**definingFunctions.py**)
++ practice using return (**understandingReturn.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
