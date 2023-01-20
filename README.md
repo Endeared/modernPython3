@@ -34,6 +34,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + practice dictionary methods to copy / update / remove items from dict (**dictionaryMethods.py**)
 + mock spotify playlist stored in python dictionary (**spotifyPlaylist.py**)
 + zip up two different lists into a dictionary (**stateAbbreviations.py**)
++ convert lists within list to dictionary key-value pairs (**listToDict.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
