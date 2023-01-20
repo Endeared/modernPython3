@@ -30,6 +30,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + access values out of multiple items in dictionary, sum those values (**dictPractice2.py**)
 + check if a random food choice is in stock at a bakery dictionary (**dictionaryAccess.py**)
     > __Note__ dependencies: **random**
++ initialize a dictionary from a list of keys, set the value of all keys (**fromkeysPractice.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
