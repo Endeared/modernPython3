@@ -28,6 +28,8 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + creation of a simple single object dictionary (**simpleDictionary.py**)
 + access values out of a single object dictionary (**dictPractice1.py**)
 + access values out of multiple items in dictionary, sum those values (**dictPractice2.py**)
++ check if a random food choice is in stock at a bakery dictionary (**dictionaryAccess.py**)
+    > __Note__ dependencies: **random**
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
