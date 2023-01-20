@@ -14,6 +14,11 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in number of times to repeat string, repeats string x times (**repeater.py**)
 + takes in string, repeats string until input = "stop copying me" (**stopCopyMe.py**)
 + takes in lower and upper numbers for range, prints if each number is even, odd, or unlucky (**unluckyNumbers.py**)
++ practice filling lists via while loop (**listsPractice1.py**)
++ practice editing data in list through while loop (**listsPractice2.py**)
++ takes list of strings, concatenates all strings together and capitalizes result (**listsPractice3.py**)
++ add elements from one list to another (**listsPractice4.py**)
++ practice adding, removing, inserting values from lists (**listsPractice5.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
