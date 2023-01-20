@@ -19,6 +19,9 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes list of strings, concatenates all strings together and capitalizes result (**listsPractice3.py**)
 + add elements from one list to another (**listsPractice4.py**)
 + practice adding, removing, inserting values from lists (**listsPractice5.py**)
++ practice iterating over lists and extracting data (**listComp1.py**)
++ practice iterating over lists and extracting more data / modifying lists (**listComp2.py**)
++ simple list comprehension to check for all numbers divisible by 12 between 1-10 (**listComp3.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
