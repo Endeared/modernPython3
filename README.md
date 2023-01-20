@@ -7,11 +7,20 @@ none of these functions have an individual / out-of-box purpose on their own. th
 ### simple scripts / assignments
 + repeat a string until for loop satisfied break condition (**breakPractice.py**)
 + randomly select int between 1-9, print out all nums not equal to 5 (**whileLoopPrac.py**)
+    > __Note__ dependencies: **random**
 + print all nums and nums^2 up to random num x, take in word and print all letters (**forLoop1.py**)
 + takes in lower and higher num, inputs sum of all nums in range (**forLoopAdd.py**)
 + takes in password, reprompts for password until pw is correct (**passwordWhile.py**)
++ takes in number of times to repeat string, repeats string x times (**repeater.py**)
++ takes in string, repeats string until input = "stop copying me" (**stopCopyMe.py**)
++ takes in lower and upper numbers for range, prints if each number is even, odd, or unlucky (**unluckyNumbers.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
+    > __Note__ dependencies: **random**
++ 2 player rps game (**rock_paper_scissor.py**)
++ 1 player rps game vs AI (**rpsAI.py**)
+    > __Note__ dependencies: **random**
++ 1 player rps game vs AI, keeps score (**rpsAIv2.py**)
     > __Note__ dependencies: **random**
 
