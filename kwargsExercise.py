@@ -1,10 +1,7 @@
 def combine_words(string, **kwargs):
     for type, add in kwargs.items():
-        if "prefix" in kwargs:
+        if type == "prefix":
             return(add + string)
-        elif "suffix" in kwargs:
+        elif type == "suffix":
             return(string + add)
-        else:
-            return(string)
-
-print(combine_words("child"))
+    return(string)
