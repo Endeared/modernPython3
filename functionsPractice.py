@@ -116,4 +116,19 @@ def intersection(list1, list2):
             new_list.append(value)
 
     return new_list
+
+def isEven(num):
+    return num % 2 == 0
+
+def partition(list, isEven):
+    truthy_list = []
+    falsy_list = []
+
+
+    for item in list:
+        if (isEven(item) == True):
+            truthy_list.append(item)
+        elif (isEven(item) == False):
+            falsy_list.append(item)
     
+    return([truthy_list, falsy_list])
