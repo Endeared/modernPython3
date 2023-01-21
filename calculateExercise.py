@@ -43,5 +43,3 @@ def calculate(**kwargs):
             return(kwargs['message'] + " " + str(kwargs['first'] / kwargs['second']))
         except KeyError:
             return('The result is ' + str(kwargs['first'] / kwargs['second']))
-
-print(calculate(make_float=True, operation='subtract', first=2.5, second=4))
