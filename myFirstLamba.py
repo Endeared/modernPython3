@@ -1,1 +1,1 @@
-cubed = lambda number: number * number * number
+cube = lambda number: number * number * number
