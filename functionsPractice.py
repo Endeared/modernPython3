@@ -22,3 +22,15 @@ def number_compare(num1, num2):
         return("Second is greater")
     else:
         return("Numbers are equal")
+
+def single_letter_count(string, letter):
+    string = string.lower()
+    letter = letter.lower()
+    count = 0
+    for char in string:
+        if char == letter:
+            count += 1
+    if count == 0:
+        return(0)
+    else:
+        return(count)
