@@ -44,6 +44,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + generate all even numbers between 1 and 50 (**generateEvens.py**)
 + return a yelled string (**practiceParams.py**)
 + practice setting a default parameter for a function (**defaultParams.py**)
++ a set of various functions for practice (**functionsPractice.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
