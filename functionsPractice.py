@@ -71,3 +71,12 @@ def is_palindrome(string):
         return True
     
     return False
+
+def frequency(list, search_term):
+    count = 0
+
+    for value in list:
+        if value == search_term:
+            count += 1
+
+    return count
