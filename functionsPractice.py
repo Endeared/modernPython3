@@ -34,3 +34,17 @@ def single_letter_count(string, letter):
         return(0)
     else:
         return(count)
+
+def multiple_letter_count(string):
+    string = string.lower()
+    chars = []
+
+    for char in string:
+        chars.append(char)
+    
+    counts = dict.fromkeys(chars, 0)
+
+    for char in string:
+        counts[char] = counts[char] + 1
+
+    return(counts)
