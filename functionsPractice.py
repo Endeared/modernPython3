@@ -107,3 +107,13 @@ def compact(list):
             new_list.append(value)
 
     return(new_list)
+
+def intersection(list1, list2):
+    new_list = []
+
+    for value in list1:
+        if value in list2:
+            new_list.append(value)
+
+    return new_list
+    
