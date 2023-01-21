@@ -98,3 +98,12 @@ def capitalize(string):
         newString += char
 
     return newString
+
+def compact(list):
+    new_list = []
+
+    for value in list:
+        if bool(value) == True:
+            new_list.append(value)
+
+    return(new_list)
