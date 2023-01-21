@@ -66,17 +66,8 @@ def is_palindrome(string):
     for char in reversed(string):
         if char != " ":
             newString += char
-
-    print(string.lower())
-    print(newString.lower())
     
     if newString.lower() == string.lower():
         return True
     
     return False
-
-is_palindrome('testing') # False
-is_palindrome('tacocat') # True
-is_palindrome('hannah') # True
-is_palindrome('robert') # False
-is_palindrome('amanaplanacanalpanama') # True
