@@ -94,7 +94,7 @@ def capitalize(string):
     capitalized = string[0].upper()
     newString = capitalized
 
-    for char in string:
+    for char in string[1:]:
         newString += char
 
     return newString
