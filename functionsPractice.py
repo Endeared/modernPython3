@@ -89,3 +89,12 @@ def multiply_even_numbers(list):
             product = product * number
     
     return product
+
+def capitalize(string):
+    capitalized = string[0].upper()
+    newString = capitalized
+
+    for char in string:
+        newString += char
+
+    return newString
