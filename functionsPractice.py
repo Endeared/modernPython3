@@ -48,3 +48,15 @@ def multiple_letter_count(string):
         counts[char] = counts[char] + 1
 
     return(counts)
+
+def list_manipulation(list, command, location, value=None):
+    if command.lower() == "remove" and location.lower() == "end":
+        return(list.pop(len(list) - 1))
+    elif command.lower() == "remove" and location.lower() == "beginning":
+        return(list.pop(0))
+    elif command.lower() == "add" and location.lower() == "beginning":
+        list.insert(0, value)
+        return list
+    elif command.lower() == "add" and location.lower() == "end":
+        list.append(value)
+        return list
