@@ -47,6 +47,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + a set of various functions for practice (**functionsPractice.py**)
 + check if a tuple of arguments contains the string "purple" (**argsExercise.py**)
 + check for kwargs in function params (**kwargsExercise.py**)
++ practice unpacking list for use in *args (**unpackingExercise.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
