@@ -60,3 +60,23 @@ def list_manipulation(list, command, location, value=None):
     elif command.lower() == "add" and location.lower() == "end":
         list.append(value)
         return list
+
+def is_palindrome(string):
+    newString = ""
+    for char in reversed(string):
+        if char != " ":
+            newString += char
+
+    print(string.lower())
+    print(newString.lower())
+    
+    if newString.lower() == string.lower():
+        return True
+    
+    return False
+
+is_palindrome('testing') # False
+is_palindrome('tacocat') # True
+is_palindrome('hannah') # True
+is_palindrome('robert') # False
+is_palindrome('amanaplanacanalpanama') # True
