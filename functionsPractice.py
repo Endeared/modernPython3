@@ -8,3 +8,9 @@ def return_day(num):
         return(days[day])
     else:
         return None
+
+def last_element(list):
+    if len(list) > 0:
+        return(list[len(list) - 1])
+    else:
+        return None
