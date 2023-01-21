@@ -80,3 +80,12 @@ def frequency(list, search_term):
             count += 1
 
     return count
+
+def multiply_even_numbers(list):
+    product = 1
+
+    for number in list:
+        if number % 2 == 0:
+            product = product * number
+    
+    return product
