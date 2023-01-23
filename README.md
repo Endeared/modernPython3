@@ -55,6 +55,9 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + use any/all functions to iterate over list (**anyAllExercise.py**)
 + identify min and max values in a list of ints (**extremeExercise.py**)
 + evaluate list for number of largest magnitude +/- (**max_magnitude.py**)
++ take sum of all even values in variable number of args (**sumEven.py**)
+
+
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
