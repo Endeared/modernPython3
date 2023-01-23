@@ -56,6 +56,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + identify min and max values in a list of ints (**extremeExercise.py**)
 + evaluate list for number of largest magnitude +/- (**max_magnitude.py**)
 + take sum of all even values in variable number of args (**sumEven.py**)
++ take sum of all floats in variable number of args (**sumFloats.py**)
 
 
 
