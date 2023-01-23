@@ -59,6 +59,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + take sum of all floats in variable number of args (**sumFloats.py**)
 + take in strings, zip and return interleaved strings (**interleave.py**)
 + filter through list, then triple every int in filtered list (**tripleAndFilter**)
++ iterate through dictionary of person keys, return list of full names concatenated (**extractFullName.py**)
 
 
 ### projects
