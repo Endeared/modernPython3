@@ -70,6 +70,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + practice making http get request for json data (**requestPractice.py**)
     > __Note__ dependencies: **requests**, **pprintpp**
 + create a simple class, practice creating instances (**simpleClass.py**)
++ create a class, practice instantiating attributes (**classPractice.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
