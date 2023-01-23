@@ -57,7 +57,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + evaluate list for number of largest magnitude +/- (**max_magnitude.py**)
 + take sum of all even values in variable number of args (**sumEven.py**)
 + take sum of all floats in variable number of args (**sumFloats.py**)
-
++ take in strings, zip and return interleaved strings (**interleave.py**)
 
 
 ### projects
