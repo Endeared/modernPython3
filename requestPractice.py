@@ -1,7 +1,12 @@
 import requests
+from pprintpp import pprint
 
-url = "http://www.google.com"
-response = requests.get(url)
+url = "https://reqres.in/api/users"
+headers = {
+    "Accept": "application/json"
+}
 
-print(f'Your request to {url} came back with code {response.status_code}!')
-print(response.text)
+response = requests.get(url, headers=headers)
+data = response.json()
+
+pprint(data)
