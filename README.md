@@ -67,6 +67,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **keyword**
 + practice importing / calling custom modules (**exercise.py**)
     > __Note__ dependencies: **helpers**
++ practice making http get request for json data (**requestPractice.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
