@@ -61,6 +61,8 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + filter through list, then triple every int in filtered list (**tripleAndFilter**)
 + iterate through dictionary of person keys, return list of full names concatenated (**extractFullName.py**)
 + practice debugging with try / except statements (**debuggingPractice.py**)
++ practice importing modules (**importPractice1.py**)
+    > __Note__ dependencies: **math**
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
