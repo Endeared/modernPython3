@@ -4,4 +4,3 @@ class Comment:
         self.username = username
         self.text = text
         self.likes = likes
-        
