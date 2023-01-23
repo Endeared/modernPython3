@@ -64,7 +64,9 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + practice importing modules (**importPractice1.py**)
     > __Note__ dependencies: **math**
 + check through *args for any python keywords (**modulesExercise.py**)
-    > __Note__ dependencies: **keywprd**
+    > __Note__ dependencies: **keyword**
++ practice importing / calling custom modules (**exercise.py**)
+    > __Note__ dependencies: **helpers**
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
