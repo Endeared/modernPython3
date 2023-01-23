@@ -15,7 +15,7 @@ response = requests.get(
 
 data = response.json()
 results = data["results"]
-jokeCount = data["jokeCount"]
+jokeCount = data["total_jokes"]
 
 if jokeCount > 1:
     print(
