@@ -38,23 +38,40 @@ class Deck:
     def __repr__(self):
         return(f'Deck of {self.num} cards')
 
-    def deal(self, toDeal):
+    def _deal(self, toDeal):
         i = 0
+        hand = []
+
         while i <= toDeal and self.num > 0:
-            self.cards.pop()
+            hand.append(self.cards.pop())
             i += 1
             self.num -= 1
+
         if self.num == 0:
             raise ValueError("All cards have been dealt.")
+        else:
+            return hand
 
     def shuffle(self):
         if self.num < 52:
             raise ValueError("Only full decks can be shuffled.")
         else:
             random.shuffle(self.cards)
+
+    def deal_card(self):
+        if self.num > 0:
+            randomCard = random.choice(self.cards)
+            self.cards.remove(randomCard)
+            self.num -= 1
+            return(randomCard)
+    
+    def deal_hand(self, cardNum):
+        return(self._deal(cardNum))
+
+
     
 
 cards = Deck()
 
 cards.shuffle()
-pprint(cards.cards)
+pprint(cards.deal_hand(7))
