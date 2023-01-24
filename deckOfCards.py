@@ -8,7 +8,7 @@ class Card:
         self.value = value
 
     def __repr__(self):
-        return(f'{self.value} of {self.suit}')
+        return f'{self.value} of {self.suit}'
 
 
 class Deck:
@@ -67,11 +67,3 @@ class Deck:
     
     def deal_hand(self, cardNum):
         return(self._deal(cardNum))
-
-
-    
-
-cards = Deck()
-
-cards.shuffle()
-pprint(cards.deal_hand(7))
