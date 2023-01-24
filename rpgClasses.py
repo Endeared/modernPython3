@@ -4,10 +4,12 @@ class Character:
         self.name = name
         self.hp = hp
         self.level = level
+        
+
+class NPC(Character):
+    
+    def speak(self):
+        print("I heard there were monsters running around last night!")
     
 test = Character("Charles", 100, 112)
-test2 = Character("Charlie", 72, 14)
-
-print(test.name)
-print(test.hp)
-print(test.level)
+villager = NPC("Bob", 100, 12)
