@@ -71,6 +71,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **requests**, **pprintpp**
 + create a simple class, practice creating instances (**simpleClass.py**)
 + create a class, practice instantiating attributes (**classPractice.py**)
++ create a mock bank account class, include several methods (**bankAccount.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
