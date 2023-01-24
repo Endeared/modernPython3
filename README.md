@@ -73,6 +73,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + create a class, practice instantiating attributes (**classPractice.py**)
 + create a mock bank account class, include several methods (**bankAccount.py**)
 + create a mock chicken coop class, include several methods / class variable (**chickenCoop.py**)
++ create mock rpg classes, include inheritance (**rpgClasses.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
