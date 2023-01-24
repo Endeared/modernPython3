@@ -37,10 +37,19 @@ class Deck:
     def __repr__(self):
         return(f'Deck of {self.num} cards')
 
+    def deal(self, toDeal):
+        i = 0
+        while i <= toDeal and self.num > 0:
+            self.cards.pop()
+            i += 1
+            self.num -= 1
+        if self.num == 0:
+            raise ValueError("All cards have been dealt.")
     
 
 cards = Deck()
 
 pprint(cards.cards)
-pprint(repr(cards))
+cards.deal(54)
+pprint(cards.cards)
 pprint(cards.num)
