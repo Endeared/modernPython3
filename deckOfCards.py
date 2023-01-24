@@ -14,8 +14,14 @@ class Deck:
         self.cards = []
         for i in range(1, 14):
             j = i
-            if j = 1:
+            if j == 1:
                 j = "A"
+            elif j == 11:
+                j = "J"
+            elif j == 12:
+                j = "Q"
+            elif j == 13:
+                j = "K"
             self.cards.append(Card("Hearts", str(j)))
             self.cards.append(Card("Clubs", str(j)))
             self.cards.append(Card("Diamonds", str(j)))
