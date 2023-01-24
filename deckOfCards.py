@@ -26,3 +26,7 @@ class Deck:
             self.cards.append(Card("Clubs", str(j)))
             self.cards.append(Card("Diamonds", str(j)))
             self.cards.append(Card("Spades", str(j)))
+
+cards = Deck()
+
+print(cards.cards)
