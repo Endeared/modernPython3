@@ -1,4 +1,5 @@
 from pprintpp import pprint
+import random
 
 class Card:
 
@@ -45,11 +46,15 @@ class Deck:
             self.num -= 1
         if self.num == 0:
             raise ValueError("All cards have been dealt.")
+
+    def shuffle(self):
+        if self.num < 52:
+            raise ValueError("Only full decks can be shuffled.")
+        else:
+            random.shuffle(self.cards)
     
 
 cards = Deck()
 
+cards.shuffle()
 pprint(cards.cards)
-cards.deal(54)
-pprint(cards.cards)
-pprint(cards.num)
