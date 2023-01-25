@@ -83,6 +83,8 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + generator that yields an unlimited number of multiples of a number (**unlimitedMultiples.py**)
 + exercise that accepts a function and returns another function (**showArgs.py**)
     > __Note__ dependencies: **functools**
++ exercise that accepts a function and returns another function, decorating the inner function (**doubleReturn.py**)
+    > __Note__ dependencies: **functools**
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
