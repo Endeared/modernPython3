@@ -91,6 +91,8 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **functools**
 + exercise that accepts a function and invokes function if a keyword argument exists (**ensureAuthorized.py**)
     > __Note__ dependencies: **functools**
++ exercise that accepts a time, returning an inner function that accepts another function (**delay.py**)
+    > __Note__ dependencies: **functools**, **time**
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
