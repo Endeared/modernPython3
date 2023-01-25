@@ -78,6 +78,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + create mock train class, use magic / dunder methods (**specialMethods.py**)
 + weekday generator using yield (**weekGenerator.py**)
 + generator that alternates between yield (**yesOrNoGenerator.py**)
++ generator that writes a song, with different message for each yield (**makeSong.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
