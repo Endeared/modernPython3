@@ -80,6 +80,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + generator that alternates between yield (**yesOrNoGenerator.py**)
 + generator that writes a song, with different message for each yield (**makeSong.py**)
 + generator that yields count multiples of a number (**getMultiples.py**)
++ generator that yields an unlimited number of multiples of a number (**unlimitedMultiples.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
