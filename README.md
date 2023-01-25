@@ -75,6 +75,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + create a mock chicken coop class, include several methods / class variable (**chickenCoop.py**)
 + create mock rpg classes, include inheritance (**rpgClasses.py**)
 + create mock genetics classes, child inherits from mother / father using method resolution order (**mroGenetics.py**)
++ create mock train class, use magic / dunder methods (**specialMethods.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
