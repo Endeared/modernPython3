@@ -1,8 +1,9 @@
-def get_data():
-    email_address = input('Enter Email: ')
-    password = input('Enter Password: ')
 
-    return email_address, password
+url = "https://uk.trapstarlondon.com/collections/new-drop/products/shooters-hooded-puffer-grey"
+# set url
 
-email, password = get_data()
-print(email + " ][ " + password)
+sections = url.split("/")
+# split url at each / char
+
+print(sections[len(sections) - 1])
+# print last element of new list from split method
