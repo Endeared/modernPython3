@@ -101,6 +101,8 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **csv**
 + script that opens up csv file, prints data from each row (**printUsers.py**)
     > __Note__ dependencies: **csv**
++ script that opens up csv file, looks for matching values in file and prints index (**findUser.py**)
+    > __Note__ dependencies: **csv**
 
 
 ### projects
