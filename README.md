@@ -107,6 +107,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **csv**
 + script that opens up csv file, deleted matching users and keeps count of deletions (**updateUsers.py**)
     > __Note__ dependencies: **csv**
++ simple webscraping program (**firstScraper.py**)
 
 
 ### projects
