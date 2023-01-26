@@ -94,6 +94,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + exercise that accepts a time, returning an inner function that accepts another function (**delay.py**)
     > __Note__ dependencies: **functools**, **time**
 + script that opens up one text file and copies all contents to second text file (**copyExercise.py**)
++ script that opens up one text file, copies all reversed contents to second text file (**copyReverse.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
