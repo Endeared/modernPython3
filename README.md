@@ -103,6 +103,8 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **csv**
 + script that opens up csv file, looks for matching values in file and prints index (**findUser.py**)
     > __Note__ dependencies: **csv**
++ script that opens up csv file, replaces old values with new values and returns count of replacements (**updateUsers.py**)
+    > __Note__ dependencies: **csv**
 
 
 ### projects
