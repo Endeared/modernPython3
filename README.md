@@ -118,6 +118,9 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **re**
 + script to write list of tuples into sqlite3 db, checks for duplicates and deletes (**friends.py**)
 
+### challenges (section 36)
++ reverse all letters of a string (**reverseString.py**)
+
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
     > __Note__ dependencies: **random**
