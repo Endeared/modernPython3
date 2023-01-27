@@ -125,6 +125,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in list of integers and target, and returns first two integers in list that add up to target (**sumPairs.py**)
 + takes in string, returns dict with vowel counts in string (**vowelCounter.py**)
 + takes in string, returns string where every first letter of each word is capitalized (**titleize.py**)
++ takes in number, returns list of all ints that the number is divisible by (**findFactors.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
