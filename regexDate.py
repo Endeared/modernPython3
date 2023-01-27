@@ -1,6 +1,6 @@
 import re
 
-def parse_bytes(check):
+def parse_date(check):
     checkFor = re.compile(r'^(\d\d)[,/.](\d\d)[,/.](\d{4})$')
     found = checkFor.search(check)
     if found:
