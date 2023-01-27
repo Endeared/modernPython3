@@ -26,6 +26,7 @@ def get_quote():
 
     while count > 0 and correct == False:
         toGuess = objectList[randomIndex]['author']
+        nameList = toGuess.split(" ")
         print(objectList[randomIndex]['quote'])
         guess = input(f'Who said this quote? {str(count)} guesses remaining.\n')
         if guess.lower() == toGuess.lower():
@@ -41,6 +42,12 @@ def get_quote():
         else:
             print('Incorrect.')
             count -= 1
+            if count == 3:
+                print("Author bio hint would go here.")
+            elif count == 2:
+                print(f'First letter of first name is {nameList[0][0]}.')
+            elif count == 1:
+                print(f'First letter of last name is {nameList[len(nameList) - 1][0]}.')
 
     playAgain = input('Out of guesses! Would you like to play again? (y/n)\n')
     while playAgain != 'y' or playAgain != 'n':
