@@ -129,6 +129,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in a collection, a value, and a starting index, and searches collection for matches after starting index (**includes.py**)
 + takes in a string and value, returns new string with original string repeated value times (**repeat.py**)
 + takes in string and amount to shorten, truncates the string if possible (**truncate.py**)
++ takes in two lists, creates a dict with first list as keys and second list as values (**twoListDict.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
