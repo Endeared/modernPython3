@@ -122,6 +122,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + reverse all letters of a string (**reverseString.py**)
 + takes in a list of items, checks if each item in list is a list (**listCheck.py**)
 + takes in a list of items, returns a list of every other item from original list (**removeEveryOther.py**)
++ takes in list of integers and target, and returns first two integers in list that add up to target (**sumPairs.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
