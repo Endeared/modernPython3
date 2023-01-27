@@ -116,6 +116,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **re**
 + simple regex script to to censor a substring within a string (**regexCensor.py**)
     > __Note__ dependencies: **re**
++ script to write list of tuples into sqlite3 db, checks for duplicates and deletes (**friends.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
