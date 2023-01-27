@@ -108,6 +108,8 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + script that opens up csv file, deleted matching users and keeps count of deletions (**updateUsers.py**)
     > __Note__ dependencies: **csv**
 + simple webscraping program (**firstScraper.py**)
++ simple regex script to check for valid time input (**regexTime.py**)
+    > __Note__ dependencies: **re**
 
 
 ### projects
