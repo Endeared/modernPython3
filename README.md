@@ -124,3 +124,5 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **requests**, **random**
 + OOP deck of cards project, with deck and card classes (**deckOfCards.py**)
     > __Note__ dependencies: **pprintpp**, **random**
++ web scraping project for guessing quotes (**scrapingProject.py**)
+    > __Note__ dependencies: **requests**, **bs4**, **random**
