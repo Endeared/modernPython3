@@ -126,6 +126,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in string, returns dict with vowel counts in string (**vowelCounter.py**)
 + takes in string, returns string where every first letter of each word is capitalized (**titleize.py**)
 + takes in number, returns list of all ints that the number is divisible by (**findFactors.py**)
++ takes in a collection, a value, and a starting index, and searches collection for matches after starting index (**includes.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
