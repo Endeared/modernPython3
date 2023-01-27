@@ -131,6 +131,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in string and amount to shorten, truncates the string if possible (**truncate.py**)
 + takes in two lists, creates a dict with first list as keys and second list as values (**twoListDict.py**)
 + takes in list, start index, end index, returns sum of all ints between incides (**rangeInList.py**)
++ takes in two numbers, checks of numbers contain the same digits + digit counts (**sameFrequency.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
