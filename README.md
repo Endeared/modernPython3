@@ -112,6 +112,8 @@ none of these functions have an individual / out-of-box purpose on their own. th
     > __Note__ dependencies: **re**
 + simple regex script to return list of binary strings in input string (**regexBytes.py**)
     > __Note__ dependencies: **re**
++ simple regex script to return dict of date groups from a string (**regexDate.py**)
+    > __Note__ dependencies: **re**
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
