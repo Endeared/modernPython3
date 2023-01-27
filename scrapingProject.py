@@ -26,9 +26,13 @@ def get_quote():
 
     while count > 0 and correct == False:
         toGuess = objectList[randomIndex]['author']
+        href = objectList[randomIndex]['href']
         nameList = toGuess.split(" ")
-        print(objectList[randomIndex]['quote'])
-        guess = input(f'Who said this quote? {str(count)} guesses remaining.\n')
+        if count == 4:
+            print(objectList[randomIndex]['quote'])
+            guess = input(f'Who said this quote? {str(count)} guesses remaining.\n')
+        else:
+            guess = input(f'{str(count)} guesses remaining.\n')
         if guess.lower() == toGuess.lower():
             playAgain = input('Correct! Would you like to play again? (y/n)\n')
             while playAgain != 'y' or playAgain != 'n':
@@ -36,26 +40,33 @@ def get_quote():
                     get_quote()
                 elif playAgain == "n":
                     print("Thanks for playing!")
-                    return
+                    count = 0
+                    correct = True
+                    quit()
                 else:
                     playAgain = input("Invalid input. Try again.\n")
         else:
-            print('Incorrect.')
             count -= 1
             if count == 3:
-                print("Author bio hint would go here.")
+                responseBio = requests.get(f'http://quotes.toscrape.com{href}')
+                soupBio = BeautifulSoup(responseBio.text, 'html.parser')
+                born = soupBio.find('span', class_='author-born-date').get_text()
+                location = soupBio.find('span', class_='author-born-location').get_text()
+                print(f'Incorrect! This person was born {born} {location}.')
             elif count == 2:
-                print(f'First letter of first name is {nameList[0][0]}.')
+                print(f'Incorrect! First letter of first name is {nameList[0][0]}.')
             elif count == 1:
-                print(f'First letter of last name is {nameList[len(nameList) - 1][0]}.')
+                print(f'Incorrect! First letter of last name is {nameList[len(nameList) - 1][0]}.')
 
     playAgain = input('Out of guesses! Would you like to play again? (y/n)\n')
     while playAgain != 'y' or playAgain != 'n':
         if playAgain == "y":
             get_quote()
         elif playAgain == "n":
-            print("Thanks for playing!\n")
-            return
+            print("Thanks for playing!")
+            count = 0
+            correct = True
+            quit()
         else:
             playAgain = input("Invalid input. Try again.\n")
         
