@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import csv
 import random
 
 def get_quote():
@@ -70,6 +69,4 @@ def get_quote():
         else:
             playAgain = input("Invalid input. Try again.\n")
         
-
-
 get_quote()
