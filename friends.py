@@ -14,7 +14,19 @@ friends = [
 
 for friend in friends:
     cursor.execute("INSERT INTO friends VALUES (?,?,?)", friend)
-    print("INSERTED!")
+
+cursor.execute("DROP TABLE IF EXISTS temp_table")
+cursor.execute("CREATE TABLE temp_table as SELECT DISTINCT * FROM friends")
+cursor.execute("DELETE FROM friends")
+cursor.execute("INSERT INTO friends SELECT * FROM temp_table")
+
+
+cursor.execute("SELECT * FROM friends")
+all = cursor.fetchall()
+for row in all:
+    print("{} | {} | {}".format(*row))
+
+
 
 connection.commit()
 connection.close()
