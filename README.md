@@ -134,6 +134,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in two numbers, checks of numbers contain the same digits + digit counts (**sameFrequency.py**)
 + takes in list and number, returns nth element in list. if negative, returns nth element from end (**nthElement.py**)
 + takes in list, returns the first duplicate value within list (**findTheDuplicate.py**)
++ takes in NxN list of lists, returns sum of two diagonals of the matrix / array (**sumDiagonals.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
