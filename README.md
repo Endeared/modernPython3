@@ -145,6 +145,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + function that returns a function that returns current avg of all previous function calls (**runningAvg.py**)
 + takes in string and search letter, returns count of search letter in string (slightly different from proposed solution / prompt) (**letterCounter.py**)
 + takes in function, returns new function (**once.py**)
++ function that returns generator yielding unlimited number of primes, starting from 2 (**nextPrime.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
