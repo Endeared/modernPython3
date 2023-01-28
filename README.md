@@ -139,6 +139,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in list, returns count of how many times a number is followed by a larger number in the list (**findGreaterNumbers.py**)
 + takes in list, returns two largest numbers in list (**twoOldest.py**)
 + takes in string, returns sum of positional values of characters in string, checks if odd / even (**isOddString.py**)
++ takes in string, returns string with all vowels reversed (**reverseVowels.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
