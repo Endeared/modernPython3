@@ -141,6 +141,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in string, returns sum of positional values of characters in string, checks if odd / even (**isOddString.py**)
 + takes in string, returns string with all vowels reversed (**reverseVowels.py**)
 + takes in list of numbers, returns true / false depending on if sum of 3 consecutive nums is odd / even (**threeOddNums.py**)
++ takes in list of numbers, returns mode of the list (most frequent number) (**mode.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
