@@ -137,6 +137,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in NxN list of lists, returns sum of two diagonals of the matrix / array (**sumDiagonals.py**)
 + takes in dictionary, returns lowest and highest keys in dict (**minMaxDict.py**)
 + takes in list, returns count of how many times a number is followed by a larger number in the list (**findGreaterNumbers.py**)
++ takes in list, returns two largest numbers in list (**twoOldest.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
