@@ -143,6 +143,7 @@ none of these functions have an individual / out-of-box purpose on their own. th
 + takes in list of numbers, returns true / false depending on if sum of 3 consecutive nums is odd / even (**threeOddNums.py**)
 + takes in list of numbers, returns mode of the list (most frequent number) (**mode.py**)
 + function that returns a function that returns current avg of all previous function calls (**runningAvg.py**)
++ takes in string and search letter, returns count of search letter in string (slightly different from proposed solution / prompt) (**letterCounter.py**)
 
 ### projects
 + guessing game for a number between 1 and 10 (**guessingGame.py**)
