@@ -1,4 +1,3 @@
-from pprintpp import pprint
 import random
 
 class Card:
